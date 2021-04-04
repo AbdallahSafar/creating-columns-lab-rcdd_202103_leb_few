@@ -48,53 +48,14 @@ img:hover {
 
 /* create a column class! make sure all of the divs within 'container's have a class of 'column' */
 .column {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
+  
 }
 /* create your tile classes! we recommend .small .med .large */
-.small1 {
-    width: 30%;
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 1;
-    grid-row-end: 1;
-}
-.small2 {
-  width: 30%;
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 2;
-    grid-row-end: 2;
-}
-.small3 {
-  width: 30%;
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 3;
-    grid-row-end: 3;
-}
-.small4 {
-  width: 30%;
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 3;
-}
-.small5 {
-  width: 30%;
-    grid-column-start: 3;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 3;
+.small {
+    
 }
 .med {
-  width: 60%;
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 2;
+  
 }
 .large {
 
